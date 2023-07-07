@@ -1,5 +1,5 @@
 {% set name = "covdrugsim" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covdrugsim-{{ version }}.tar.gz
-  sha256: c7a5efc9f88f172c55898a3784b1184508c82907004be557c7d737f4a9cf6e84
+  sha256: 83a18fceb79ee337d617e309868034c4f79faf2e219bd97b08863ee937ec76e5
 
 build:
   noarch: python
@@ -41,7 +41,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   description: |
-      CovDrugSim is a package that provides functionalities to automate the quantum mechanical calculations and molecular dynamics simulations of covalent drugs.
+    CovDrugSim is a package that provides functionalities to automate the quantum mechanical calculations and molecular dynamics simulations of covalent drugs.
   doc_url: https://covdrugsim.readthedocs.io/
   dev_url: https://github.com/Jon-Ting/covdrugsim
 
