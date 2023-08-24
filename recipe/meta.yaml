@@ -1,5 +1,5 @@
 {% set name = "covdrugsim" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covdrugsim-{{ version }}.tar.gz
-  sha256: 4133e52db7a5607afad4fc14208d118cc4d28891332419ccf2ccc83ae305b1e3
+  sha256: 4a1c12b2ee270713bd0a851412a725b149eb2f3cecd8de3beaf4af4332949932
 
 build:
   noarch: python
